@@ -1,0 +1,41 @@
+# 🧠 Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# 🔒 Environment files
+.env
+/backend/.env
+/frontend/.env
+
+# 🧱 Build and cache folders
+/build
+/dist
+.cache
+/.parcel-cache
+coverage/
+
+# 🪣 Uploads and temp files
+/uploads/
+tmp/
+*.tmp
+
+# 💻 OS system files
+.DS_Store
+Thumbs.db
+
+# 🧪 Logs
+logs
+*.log
+backend/debug.log
+frontend/debug.log
+
+# ⚙️ IDE specific folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🚀 Production / Deployment files
+*.env.local
+*.env.production
